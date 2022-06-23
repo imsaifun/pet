@@ -6,6 +6,7 @@ import Pet from '../../models/Pet'
 
 /* Allows you to view pet card info and delete pet card*/
 const PetPage = ({ pet }) => {
+  console.log(pet);
   const router = useRouter()
   const [message, setMessage] = useState('')
   const handleDelete = async () => {
